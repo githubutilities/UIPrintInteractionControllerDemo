@@ -15,6 +15,8 @@
 		BE0F6F541B8C05AE006B7D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0F6F521B8C05AE006B7D36 /* LaunchScreen.storyboard */; };
 		BE0F6F5F1B8C05AF006B7D36 /* RemoteControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F6F5E1B8C05AF006B7D36 /* RemoteControllerTests.m */; };
 		BE0F6F6A1B8C05AF006B7D36 /* RemoteControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F6F691B8C05AF006B7D36 /* RemoteControllerUITests.m */; };
+		BE0F6F7A1B8C13F4006B7D36 /* HelloPrintPageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F6F791B8C13F4006B7D36 /* HelloPrintPageRenderer.m */; };
+		BE0F6F7C1B8C1E1D006B7D36 /* hello.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE0F6F7B1B8C1E1D006B7D36 /* hello.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		BE0F6F651B8C05AF006B7D36 /* RemoteControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0F6F691B8C05AF006B7D36 /* RemoteControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteControllerUITests.m; sourceTree = "<group>"; };
 		BE0F6F6B1B8C05AF006B7D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0F6F781B8C13F4006B7D36 /* HelloPrintPageRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloPrintPageRenderer.h; sourceTree = "<group>"; };
+		BE0F6F791B8C13F4006B7D36 /* HelloPrintPageRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloPrintPageRenderer.m; sourceTree = "<group>"; };
+		BE0F6F7B1B8C1E1D006B7D36 /* hello.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = hello.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,8 @@
 				BE0F6F521B8C05AE006B7D36 /* LaunchScreen.storyboard */,
 				BE0F6F551B8C05AE006B7D36 /* Info.plist */,
 				BE0F6F441B8C05AE006B7D36 /* Supporting Files */,
+				BE0F6F781B8C13F4006B7D36 /* HelloPrintPageRenderer.h */,
+				BE0F6F791B8C13F4006B7D36 /* HelloPrintPageRenderer.m */,
 			);
 			path = RemoteController;
 			sourceTree = "<group>";
@@ -117,6 +124,7 @@
 		BE0F6F441B8C05AE006B7D36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BE0F6F7B1B8C1E1D006B7D36 /* hello.pdf */,
 				BE0F6F451B8C05AE006B7D36 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE0F6F541B8C05AE006B7D36 /* LaunchScreen.storyboard in Resources */,
+				BE0F6F7C1B8C1E1D006B7D36 /* hello.pdf in Resources */,
 				BE0F6F511B8C05AE006B7D36 /* Assets.xcassets in Resources */,
 				BE0F6F4F1B8C05AE006B7D36 /* Main.storyboard in Resources */,
 			);
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE0F6F7A1B8C13F4006B7D36 /* HelloPrintPageRenderer.m in Sources */,
 				BE0F6F4C1B8C05AE006B7D36 /* ViewController.m in Sources */,
 				BE0F6F491B8C05AE006B7D36 /* AppDelegate.m in Sources */,
 				BE0F6F461B8C05AE006B7D36 /* main.m in Sources */,
@@ -498,6 +508,7 @@
 				BE0F6F701B8C05AF006B7D36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE0F6F711B8C05AF006B7D36 /* Build configuration list for PBXNativeTarget "RemoteControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				BE0F6F731B8C05AF006B7D36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE0F6F741B8C05AF006B7D36 /* Build configuration list for PBXNativeTarget "RemoteControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				BE0F6F761B8C05AF006B7D36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

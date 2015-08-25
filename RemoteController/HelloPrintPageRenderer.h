@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Renderer.h
 //  RemoteController
 //
 //  Created by will on 8/25/15.
@@ -8,11 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-    <
-    UIPrintInteractionControllerDelegate
-    >
-
+@interface HelloPrintPageRenderer : UIPrintPageRenderer
 
 @end
-
